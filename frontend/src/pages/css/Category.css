@@ -1,0 +1,44 @@
+.banner{
+    display: block;
+    margin: 30px 30px;
+    width: 100%;
+}
+
+.indexSort{
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+
+.indexSort p span{
+    font-weight: 600;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 35px;
+    row-gap: 80px;
+    column-gap: 30px;
+}
+
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 193px;
+    height: 49px;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+}
